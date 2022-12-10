@@ -1,0 +1,25 @@
+{
+    "name": "amrita/autoloading-lesson",
+    "description": "Learn to implement auto load",
+    "authors": [
+        {
+            "name": "amrita",
+            "email": "amritaxtha10@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "realme/eealme.php",
+            "redmi/readmi2.php",
+            "redmi/redmi3.php"
+        ],
+        "classmap": [
+            "./realme/realme.php",
+            "./redmi/redmimbl.php"
+        ],
+        "exclude-from-classmap": [
+            "./realme/realme.php"
+        ]
+    }
+}

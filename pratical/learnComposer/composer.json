@@ -1,0 +1,15 @@
+{
+    "name": "amy/composer",
+    "description": "This is my first composer package",
+    "authors": [
+        {
+            "name": "amrita",
+            "email": "amritaxtha10@gmail.com"
+        }
+    ],
+    "require": {
+        "ankitpokhrel/tus-php": "^2.3",
+        "fakerphp/faker": "^1.20",
+        "dompdf/dompdf": "^2.0"
+    }
+}
